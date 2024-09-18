@@ -75,7 +75,7 @@ const Header = () => {
                       src={logoLight}
                       alt="logoLight"
                     />
-                    <ul className="text-gray-200 flex flex-col gap-2">
+                    {/* <ul className="text-gray-200 flex flex-col gap-2">
                       {navBarList.map((item) => (
                         <li
                           className="font-normal hover:font-bold items-center text-lg text-gray-200 hover:underline underline-offset-[4px] decoration-[1px] hover:text-white md:border-r-[2px] border-r-gray-300 hoverEffect last:border-r-0"
@@ -90,8 +90,8 @@ const Header = () => {
                           </NavLink>
                         </li>
                       ))}
-                    </ul>
-                    <div className="mt-4">
+                    </ul> */}
+                    {/* <div className="mt-4">
                       <h1
                         onClick={() => setCategory(!category)}
                         className="flex justify-between text-base cursor-pointer items-center font-titleFont mb-2"
@@ -136,14 +136,14 @@ const Header = () => {
                           <li className="headerSedenavLi">Others</li>
                         </motion.ul>
                       )}
-                    </div>
+                    </div> */}
                   </div>
-                  <span
+                  {/* <span
                     onClick={() => setSidenav(false)}
                     className="w-8 h-8 border-[1px] border-gray-300 absolute top-2 -right-10 text-gray-300 text-2xl flex justify-center items-center cursor-pointer hover:border-red-500 hover:text-red-500 duration-300"
                   >
                     <MdClose />
-                  </span>
+                  </span> */}
                 </motion.div>
               </div>
             )}
